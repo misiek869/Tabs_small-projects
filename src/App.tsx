@@ -11,7 +11,7 @@ function App() {
 	return (
 		<section className='jobs-center'>
 			<JobInfo data={data} currentItem={currentItem} />
-			<BtnContainer />
+			<BtnContainer data={data} currentItem={currentItem} />
 		</section>
 	)
 }
