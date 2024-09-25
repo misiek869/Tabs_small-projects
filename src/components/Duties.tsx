@@ -1,7 +1,15 @@
-import React from 'react'
+type DutiesProps = {
+	duties: string[]
+}
 
-const Duties = () => {
-	return <div></div>
+const Duties = ({ duties }) => {
+	return (
+		<div>
+			{duties.map(duty => {
+				return <div className=''></div>
+			})}
+		</div>
+	)
 }
 
 export default Duties

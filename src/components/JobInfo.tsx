@@ -1,4 +1,5 @@
 import { type TabType } from '../data'
+import Duties from './Duties'
 
 type JobInfoProps = {
 	data: TabType[]
@@ -13,6 +14,7 @@ const JobInfo = ({ data, currentItem }: JobInfoProps) => {
 			<h3>{title}</h3>
 			<span className='job-company'>{company}</span>
 			<p className='job-date'>{dates}</p>
+			<Duties duties={duties} />
 		</article>
 	)
 }
