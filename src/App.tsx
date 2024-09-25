@@ -8,7 +8,7 @@ function App() {
 	const [currentItem, setCurrentItem] = useState<number>(0)
 
 	return (
-		<section>
+		<section className='jobs-center'>
 			<JobInfo data={data} currentItem={currentItem} />
 		</section>
 	)

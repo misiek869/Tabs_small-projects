@@ -175,3 +175,27 @@ main {
 	margin: 0 auto;
 	margin-top: 1rem;
 }
+
+/* PROJECT CSS */
+
+.jobs-center {
+	width: 80vw;
+	margin: 5rem auto;
+	max-width: var(--max-width);
+}
+
+.job-company {
+	text-transform: uppercase;
+	color: var(--grey-700);
+	background: var(--grey-300);
+	display: inline-block;
+	padding: 0.375rem 0.75rem;
+	border-radius: var(--borderRadius);
+	margin: 0.75rem 0;
+}
+
+.job-date {
+	color: var(--grey-500);
+	letter-spacing: var(--letterSpacing);
+	margin-bottom: 2rem;
+}
