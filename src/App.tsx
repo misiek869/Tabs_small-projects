@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import tabs from './data'
+import { type TabType } from './data'
 
 function App() {
-	const [count, setCount] = useState(0)
+	const [data, setData] = useState<TabType[]>(tabs)
 
 	return <div></div>
 }
