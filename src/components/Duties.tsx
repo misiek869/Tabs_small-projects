@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Dutiees = () => {
+const Duties = () => {
 	return <div></div>
 }
 
-export default Dutiees
+export default Duties
