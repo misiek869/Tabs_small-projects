@@ -6,10 +6,10 @@ type DutiesProps = {
 }
 
 const Duties = ({ duties }: DutiesProps) => {
-	const id = uuidv4()
 	return (
 		<div>
 			{duties.map(duty => {
+				const id = uuidv4()
 				return (
 					<div key={id} className='job-desc'>
 						<FaAngleDoubleRight className='job-icon'></FaAngleDoubleRight>
